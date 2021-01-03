@@ -3,7 +3,6 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 const WebpackNotifierPlugin = require("webpack-notifier");
 
 module.exports = {
-  mode: "development",
   entry: {
     app: "./src/app.js",
   },
